@@ -1,2 +1,21 @@
 # csvFileManager_Python
-A simple command line tool for managing CSV files.
+A simple Python command line tool for managing CSV files.
+
+Run the script using python3.
+
+You will be promped to enter a subcommand. Valid commands are:
+
+- help
+- load [filename.csv]
+- printrow [rowNum]
+- printrow [startRow] [endRow]
+- evalsum [colNum]
+- evalavg [evalavg]
+- stats
+- findrow [colNum] [stringToFind]
+- sort [colNum]
+- sornumeric [colNum]
+- save
+- save [newFileName.csv]
+- merge [file1.csv] [file2.csv]
+- deleterow [rowNum]
