@@ -6,13 +6,13 @@ Run the script using python3.
 You will be promped to enter a subcommand. Valid commands are:
 
 - help
-- load [filename.csv]
+- load [fileName.csv]
 - printrow [rowNum]
 - printrow [startRow] [endRow]
 - evalsum [colNum]
-- evalavg [evalavg]
+- evalavg [colNum]
 - stats
-- findrow [colNum] [stringToFind]
+- findrow [colToSearch] [stringToFind]
 - sort [colNum]
 - sornumeric [colNum]
 - save
